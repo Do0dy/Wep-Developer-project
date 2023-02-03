@@ -1,21 +1,22 @@
 html {text-align: right;}
 
-ol { place-items:inherit;}
-
 *{
     margin: 0;
     padding: 0;
 }
 .rate {
-    float: right;
+    align-items: center;
+    float: inline-start;
     height: 46px;
     padding: 0 10px;
 }
 .rate:not(:checked) > input {
+    align-items: center;
     position:absolute;
     top:-9999px;
 }
 .rate:not(:checked) > label {
+    align-items: center;
     float:right;
     width:1em;
     overflow:hidden;
@@ -41,3 +42,209 @@ ol { place-items:inherit;}
 .rate > label:hover ~ input:checked ~ label {
     color: #c59b08;
 }
+
+/*---------*/
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.452),rgba(0, 0, 0, 0.452)), url(Sign-Language.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.headerbox{
+    min-height: 200px;
+    width: 2000px;
+    background-color: #b5e2ff;
+    border-color: #b5e2ff;
+    padding: 50px;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 7%;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 200%;
+    font-style: italic;
+    color: #530385;
+    text-shadow: 5px 5px black; 
+}
+
+.asidebox {
+    min-height: 400px;
+    max-width: 250px;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 7%;
+    background-color: #b5e2ff;
+    opacity: 0.9;
+    border-color: #b5e2ff;
+    float: right;
+    font-style: oblique;
+    font-size: 25px;;
+    text-align: right;
+}
+
+.sectionbox {
+    min-height: 400px;
+    width: 1650px;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 2%;
+    margin-left: 3%;
+    background-color: #b5e2ff;
+    opacity: 0.9;
+    border-color: #b5e2ff;
+    float: right;
+}
+
+.footerbox {
+    height: 200px;
+    width: 300px;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 50px;
+    margin-top: 3%;
+    margin-right: 50%;
+    background-color: #b5e2ff;
+    opacity: 0.9;
+    border-color: #b5e2ff;
+    float: right;
+    margin-bottom: 3%;
+}
+
+.box{
+    opacity: 0.9;
+    background-color: white;
+    width: 350px;
+    min-height: 390px;
+    padding: 20px;
+    margin: 6% auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.form{
+    padding-right: 85px;
+    margin-top: 0px;
+}
+p{
+    padding-top: 10px;
+    color: #36429f;
+}
+
+
+h2{
+    color: #36429f;
+}
+
+
+.form-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border: 2px solid #999;
+    border-radius: 25px;
+    outline: none;
+    background: transparent;
+   
+}
+.form-field2{
+    width: 100%;
+    padding: 7px 0;
+    margin: 5px 0;
+    border: 2px solid #999;
+    border-radius: 25px;
+    outline: none;
+    background: transparent;
+}
+
+.button, .submit {
+    cursor: pointer;
+    margin-bottom: auto;
+    background: linear-gradient(to right, #7ed5d4, #36429f);
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 19px;
+    
+}
+.submit{
+    display: block;
+    width: 100%;
+    padding: 5px 20px;
+    margin-top: 2px;
+    
+}
+.button{padding: 10px 30px;
+        margin-top: 20px;
+        float: right;
+    }
+
+#a{
+    color: black;
+}
+
+.comments{
+    margin-right: 15px;
+}
+
+#comment{
+    text-align: center;
+    padding-top: 50px;
+}
+
+h3 {
+
+    text-align: right;
+    font-size: 150%;
+    font-style: oblique;
+    color:#795695 ;
+
+
+
+  }
+
+#p2 {
+    font-style: oblique;
+    font-size: 150%;
+    text-align: right;
+    color: black;
+ }
+
+
+
+h4 {
+
+  text-align: right;
+  font-size: 150%;
+  font-style: oblique;
+  color:#795695 ;
+
+
+}
+
+  li {
+    font-style: oblique;
+    font-size: 100%;
+    text-align: right;
+ }
+ ul{
+    padding-right: 5px;
+ }
+
+ #NextANDPrev{
+    width: 20px;
+    height: 10px;
+    color: white;
+    background-color: lightslategray;
+    padding: 10px;
+    align-self: center;
+ }
