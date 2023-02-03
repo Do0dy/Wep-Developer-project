@@ -12,9 +12,11 @@
         <title>قيمنا</title>
     </head>
 
-    <body dir="rtl">
+    <body dir="rtl" style="text-align: center;">
+      <div class="box" >
       <form>
-        <div class="rate">
+        <h2 > صفحة التقييم</h2><br>
+        <div class="rate" >
             <p> قيم موقعنا:</p>
             <input type="radio" id="star5" name="rate" value="5" />
             <label for="star5" title="text">5 stars</label>
@@ -29,10 +31,13 @@
           </div>
          <br>
          <br>
-         <br><br><br><br>
-        <label><p> نسعد باستلام تعليقاتكم واقتراحاتكم</p>
-        <textarea name="comments" cols="40" rows="10" placeholder="تعليقات واقتراحات"></textarea>
+         <br>
+        <label><p id="comment"> نسعد باستلام تعليقاتكم واقتراحاتكم:</p><br>
+        <textarea class="comments" name="comments" cols="40" rows="10" placeholder=" تعليقات واقتراحات"></textarea>
         </label>
+        <br><br>
+        <label><input class="button" type="submit" name="OK" value="تم" width="15" height="10" /></label>
     </form>
+      </div>
     </body>
 </html>
